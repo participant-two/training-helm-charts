@@ -1,0 +1,6 @@
+apiVersion: v1
+data:
+  helloworld: hallo wereld en omstreken
+kind: ConfigMap
+metadata:
+  name: hello-world
