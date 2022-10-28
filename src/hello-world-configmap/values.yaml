@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  tag: 1.0
+  tag: 1.1
 app:
   content: "hello k8S 2022"
   port: 8080
