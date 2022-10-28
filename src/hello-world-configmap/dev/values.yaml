@@ -1,0 +1,10 @@
+replicaCount: 1
+image:
+  tag: 1.1
+app:
+  content: "hello k8S 2022"
+  port: 8080
+ingress:
+    enabled: false
+    ## List of hosts for the ingress
+    host: hello-world-configmap-dev.n-able.xyz
